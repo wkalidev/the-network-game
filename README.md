@@ -1,16 +1,42 @@
-# React + Vite
+# 🕸️ THE NETWORK — Web3 Investigation Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Enquêtez. Interrogez. Exposez la vérité. Gagnez des $TRUTH tokens.
 
-Currently, two official plugins are available:
+![THE NETWORK](public/assets/splash-bg.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Play Now
+👉 **[wkalidev.github.io/the-network-game](https://wkalidev.github.io/the-network-game)**
 
-## React Compiler
+## 🔍 What is it?
+A Web3 noir investigation game built on Base Network.
+Uncover a criminal network involving the world's most powerful.
+Interrogate AI-powered suspects. Collect evidence. Earn $TRUTH tokens.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡ Features
+- 🤖 AI-powered suspect interrogations (Claude Sonnet)
+- 📁 7 pieces of evidence to collect
+- 💀 5 suspects to unlock
+- ◈ $TRUTH token reward system
+- 🌍 4 languages — FR / EN / IT / ES
+- 📱 Mobile first design
+- ⛓️ Base Network smart contract
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+React · Vite · Solidity · Base Network · Claude AI · GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Run locally
+git clone https://github.com/wkalidev/the-network-game.git
+cd the-network-game
+npm install
+npm run dev
+
+## ⛓️ Smart Contract
+TruthToken.sol — Base Network (chainId 8453)
+ERC-20 · ReentrancyGuard · ECDSA Signatures · Anti-bot
+
+## 👤 Built by
+**wkalidev** ·zcodebase·
+Twitter: @willycodexwar · Farcaster: @willywarrior
+
+---
+*"La vérité ne peut pas être effacée"*
