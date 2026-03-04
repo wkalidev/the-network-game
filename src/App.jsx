@@ -487,6 +487,14 @@ function IntroScreen({t, onStart}) {
     },22);
     return()=>clearInterval(timer);
   },[full]);
+
+  // Farcaster Mini App SDK
+useEffect(() => {
+  if (window.sdk?.actions?.ready) {
+    window.sdk.actions.ready();
+  }
+}, []);
+
   return (
     <div style={{position:"fixed",inset:0,background:"#000",display:"flex",alignItems:"center",justifyContent:"center",padding:24,zIndex:999}}>
       <ParticleField/>
